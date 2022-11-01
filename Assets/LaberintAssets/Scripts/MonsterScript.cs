@@ -33,7 +33,7 @@ public class MonsterScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            gameManager.Aparecefinal("¡¡Mimido!!");
+            gameManager.Aparecefinal("Game Over");
         }
     }
 

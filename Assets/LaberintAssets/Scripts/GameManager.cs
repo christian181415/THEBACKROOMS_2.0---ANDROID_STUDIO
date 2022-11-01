@@ -29,9 +29,22 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ( Input.GetKey ( KeyCode.Escape ))
+        if ( Input.GetKeyDown( KeyCode.Escape ))
             {
-                Cursor.lockState = CursorLockMode.None ; 
+                lockCursor = !lockCursor;
+
+                if (lockCursor == true)
+                {
+                    Time.timeScale = 1f;
+                    Cursor.lockState = CursorLockMode.Locked;
+                    Cursor.visible = false;
+                }
+                if (lockCursor == false)
+                {
+                    Time.timeScale = 0f;
+                    Cursor.lockState = CursorLockMode.None;
+                }
+                
             }
     }
 
@@ -64,5 +77,6 @@ public class GameManager : MonoBehaviour
     {
         panelFinal.SetActive(true);
         textoFinal.text = texto;
+        Time.timeScale = 0f;
     }
 }
