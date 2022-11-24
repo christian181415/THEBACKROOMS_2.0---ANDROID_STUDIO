@@ -31,21 +31,20 @@ public class GameManager : MonoBehaviour
     {
         if ( Input.GetKeyDown( KeyCode.Escape ))
             {
-                lockCursor = !lockCursor;
-
-                if (lockCursor == true)
-                {
-                    Time.timeScale = 1f;
-                    Cursor.lockState = CursorLockMode.Locked;
-                    Cursor.visible = false;
-                }
-                if (lockCursor == false)
-                {
-                    Time.timeScale = 0f;
-                    Cursor.lockState = CursorLockMode.None;
-                }
-                
+                lockCursor = !lockCursor;               
             }
+        
+        if (lockCursor == true)
+        {
+            Time.timeScale = 1f;
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        else
+        {
+            Time.timeScale = 0f;
+            Cursor.lockState = CursorLockMode.None;
+        }
     }
 
     private void EstablecerPunto(GameObject objeto)
