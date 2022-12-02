@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PoolScene.unity
     guid: d562c6d7e0f6f7e4a8513129fc142ff0
+  - enabled: 1
+    path: Assets/Scenes/UniversityScene.unity
+    guid: c410301f8983a8f4d830e566876e237c
   m_configObjects: {}
