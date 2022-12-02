@@ -253,7 +253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a368f5c4d9ac1954697811bc18c055db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scene: PoolScene
 --- !u!65 &9297570
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -338,7 +337,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh64686
+  m_Name: pb_Mesh34062
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1388,8 +1387,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 9.827303}
-  m_SizeDelta: {x: 0, y: -91.7219}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &271327171
 MonoBehaviour:
@@ -1411,7 +1410,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reiniciar
+  m_text: Reanudar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a18aad74b53fd654387d9770f41ff786, type: 2}
   m_sharedMaterial: {fileID: 9185871669795346860, guid: a18aad74b53fd654387d9770f41ff786, type: 2}
@@ -1420,8 +1419,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5388,7 +5387,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh64350
+  m_Name: pb_Mesh33736
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6488,7 +6487,6 @@ GameObject:
   - component: {fileID: 937861131}
   - component: {fileID: 937861130}
   - component: {fileID: 937861129}
-  - component: {fileID: 937861132}
   m_Layer: 5
   m_Name: Btn Exit
   m_TagString: Untagged
@@ -6514,8 +6512,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 175.22858, y: -68.907}
-  m_SizeDelta: {x: 308.3717, y: 29.273}
+  m_AnchoredPosition: {x: 193, y: -88}
+  m_SizeDelta: {x: 308.3717, y: 65.087}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &937861129
 MonoBehaviour:
@@ -6538,13 +6536,13 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.25490198, g: 0.25490198, b: 0.25490198, a: 0}
-    m_HighlightedColor: {r: 0.25490198, g: 0.25490198, b: 0.25490198, a: 0.50980395}
-    m_PressedColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 0.6666667}
-    m_SelectedColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 0.6666667}
-    m_DisabledColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 0.6666667}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
-    m_FadeDuration: 0.5
+    m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -6560,19 +6558,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 937861130}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 937861132}
-        m_TargetAssemblyTypeName: MenuScriptLaberint, Assembly-CSharp
-        m_MethodName: ExitGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &937861130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6611,19 +6597,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937861127}
   m_CullTransparentMesh: 1
---- !u!114 &937861132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 937861127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcc64e5cf02f634449037d9fe48e542f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: 
 --- !u!1 &950000783
 GameObject:
   m_ObjectHideFlags: 0
@@ -7312,7 +7285,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh65040
+  m_Name: pb_Mesh34370
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16159,7 +16132,6 @@ GameObject:
   - component: {fileID: 1246525414}
   - component: {fileID: 1246525413}
   - component: {fileID: 1246525412}
-  - component: {fileID: 1246525415}
   m_Layer: 5
   m_Name: Btn Reiniciar
   m_TagString: Untagged
@@ -16185,8 +16157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -192, y: -67.97861}
-  m_SizeDelta: {x: 308.3717, y: 27.4155}
+  m_AnchoredPosition: {x: -192, y: -88}
+  m_SizeDelta: {x: 308.3717, y: 65.087}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1246525412
 MonoBehaviour:
@@ -16209,13 +16181,13 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.25490198, g: 0.25490198, b: 0.25490198, a: 0}
-    m_HighlightedColor: {r: 0.25490198, g: 0.25490198, b: 0.25490198, a: 0.50980395}
-    m_PressedColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 0.6666667}
-    m_SelectedColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 0.6666667}
-    m_DisabledColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 0.6666667}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
-    m_FadeDuration: 0.5
+    m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
@@ -16231,19 +16203,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1246525413}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1246525415}
-        m_TargetAssemblyTypeName: MenuScriptLaberint, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1246525413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16282,26 +16242,13 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1246525410}
   m_CullTransparentMesh: 1
---- !u!114 &1246525415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246525410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcc64e5cf02f634449037d9fe48e542f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: LaberintScene
 --- !u!43 &1260784011
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh65240
+  m_Name: pb_Mesh34552
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16526,8 +16473,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -17025,7 +16972,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh65142
+  m_Name: pb_Mesh34472
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38834,7 +38781,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh64290
+  m_Name: pb_Mesh33676
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -39121,7 +39068,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000010172, y: 85}
+  m_AnchoredPosition: {x: 0.000010172, y: 97}
   m_SizeDelta: {x: 575.7516, y: 103.7798}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039954049
@@ -39146,8 +39093,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pausa
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7b5f3c775c5a4ac41938bd986e7de6d2, type: 2}
-  m_sharedMaterial: {fileID: 2097600678795806039, guid: 7b5f3c775c5a4ac41938bd986e7de6d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
