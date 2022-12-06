@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     private int puntoSalida;
     public bool lockCursor = true;
+    public string reiniciar;
 
     // Start is called before the first frame update
     void Start()
@@ -64,7 +65,7 @@ public class GameManager : MonoBehaviour
     {
         if (eleccion == true)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(reiniciar);
         }
         else
         {

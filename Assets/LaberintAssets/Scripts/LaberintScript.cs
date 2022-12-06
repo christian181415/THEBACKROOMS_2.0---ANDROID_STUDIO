@@ -5,23 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class LaberintScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string LoadScene;
 
     void OnTriggerEnter (Collider other) 
     {   
         if (other.tag == "Player")
         {
-            SceneManager.LoadScene("PoolScene");
+            SceneManager.LoadScene(LoadScene);
         }
     }
 }
